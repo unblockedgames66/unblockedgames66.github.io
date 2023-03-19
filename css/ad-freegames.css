@@ -1,0 +1,54 @@
+/* Site and Game Specific CSS File */
+/* Copyright Â© 2005-2021 The Free Video Games Project */
+
+/* Over-ride global background color on a site-specific basis */
+html, body {
+  background-color: #0e0e0e;
+}
+
+
+/* Ads */
+#rightad {
+  position:fixed;
+  z-index: 50;
+  right: 5px;
+  top: 75px;
+  top: max(75px, calc((100vh - 600px)/2));
+  height: 600px;
+  overflow: hidden;
+}
+#leftad {
+  position:fixed;
+  z-index: 50;
+  left: 5px;
+  top: 75px;
+  top: max(75px, calc((100vh - 600px)/2));
+  height: 600px;
+  overflow: hidden;
+}
+
+/* Ad Related Media Queries */
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  #rightad {
+  display: none;
+  }
+  #leftad {
+  display: none;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1549px) {
+  #rightad {
+  width: 160px;
+  }
+  #leftad {
+  width: 160px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  #rightad {
+  width: 300px;
+  }
+  #leftad {
+  width: 300px;
+  }
+}
