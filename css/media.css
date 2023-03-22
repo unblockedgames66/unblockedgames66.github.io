@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+  #footer {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #games-related {
+    display: none;
+  }
+}
