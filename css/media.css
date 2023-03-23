@@ -4,8 +4,7 @@
   body * {
     display: none;
   }
-  #game,
-  #iframe-game {
+  #game-wrap {
     display: block;
   }
 }
