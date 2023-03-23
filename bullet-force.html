@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Bullet Force</title>
+    <title>Trang web của tôi</title>
     <style>
       body {
         margin: 0;
         padding: 0;
-        overflow: hidden;
+      }
+
+      #game-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
       }
 
       iframe {
@@ -17,17 +23,15 @@
       }
 
       @media screen and (orientation: landscape) {
-        iframe {
+        #game-container {
           transform: rotate(90deg);
-          width: 100vh;
-          height: 100vw;
-          margin-top: calc((100% - 100vw) / 2);
-          margin-left: calc((100% - 100vh) / 2);
         }
       }
     </style>
   </head>
   <body>
+    <div id="game-container">
     <iframe src="https://www.google.com/logos/2019/july4th19/r2/july4th19.html"></iframe>
+    </div>
   </body>
 </html>
