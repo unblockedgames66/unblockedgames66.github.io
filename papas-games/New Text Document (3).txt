@@ -1,0 +1,111 @@
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
+	
+<div class="col-6 col-md-3">
+<a class="gc2" href="papas/">
+<img class="ft" alt="Papa's Games" loading="lazy" src="XXXXXX">
+<h5>Papa's Games</h5>
+</a>
+</div>
