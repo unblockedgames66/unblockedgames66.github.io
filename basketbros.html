@@ -79,5 +79,24 @@
 <a href="/papas-games/">Papa's Games</a>
 </div>
 </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/ublock-origin@1.35.2/web_accessible_resources/ublock0.js"></script>
+<script>
+  // Loại trừ example.com khỏi danh sách bị chặn quảng cáo
+  if (typeof ublock0 !== 'undefined') {
+    ublock0.route(/example\.com\//, /^never/);
+  }
+
+  window.addEventListener('load', function() {
+    if (typeof ublock0 !== 'undefined') {
+      ublock0.onHit(function() {
+        console.log('Ad blocked by uBlock Origin!');
+      });
+    } else {
+      console.log('uBlock Origin not detected!');
+    }
+  });
+</script>    
+    
 </body>
 </html>
