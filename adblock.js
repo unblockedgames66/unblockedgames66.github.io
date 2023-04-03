@@ -1,20 +1,17 @@
-// Thiết lập các cấu hình cho AdBlock Plus
-var config = {
-  "filter": ["https://easylist.to/easylist/easylist.txt"]
-};
+// Khởi tạo AdGuard API với các cấu hình mặc định và đường dẫn đến danh sách chặn của bạn
+var adguard = new Adguard({
+  filters: ["https://filters.adtidy.org/extension/chromium/filters/3.txt"]
+});
 
-// Khởi tạo AdBlock Plus với các cấu hình đã thiết lập
-adblockplus.init(config);
-
-// Loại bỏ một domain cụ thể khỏi danh sách chặn của AdBlock Plus
-adblockplus.removeFilter("||example.com^");
+// Loại bỏ yêu cầu tải xuống từ trang web "example.com" khỏi danh sách chặn quảng cáo
+adguard.skip("https://example.com/*");
 
 // Lặp qua tất cả các yêu cầu tải xuống từ trang web của bạn và loại bỏ các yêu cầu chứa quảng cáo
 var blockAds = function() {
-  var requests = adblockplus.getRequests({type: "image"});
+  var requests = performance.getEntriesByType("resource");
   requests.forEach(function(request) {
-    if (adblockplus.matches(request.url)) {
-      adblockplus.block(request.url);
+    if (adguard.matches(request.name)) {
+      adguard.block(request.name);
     }
   });
 };
